@@ -38,6 +38,7 @@
         .leaflet-popup-content.media{
             width: auto!important;
             height: auto!important;
+            overflow: auto;
         }
         .leaflet-popup-content th {
             text-align: left;
@@ -194,7 +195,3 @@
             justify-content: center;
             align-items: center;
         }
-        .leaflet-control-layers-expanded .leaflet-control-layers-toggle {
-            display: none;
-        }
-        
